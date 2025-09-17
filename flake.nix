@@ -1,5 +1,5 @@
 {
-  description = "Kiro - An AI coding assistant";
+  description = "Kiro - The AI IDE for prototype to production";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -116,7 +116,7 @@
 
           meta = with lib; {
             description = "Kiro - An AI coding assistant";
-            homepage = "https://kiro.ai";
+            homepage = "https://kiro.dev";
             license = licenses.unfree;
             platforms = platforms.linux;
           };
